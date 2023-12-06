@@ -31,4 +31,8 @@ FROM (VALUES
 ('SXG', '0xe1045afc3abd65bb728a90a011924b0d64c6bf86', 'ERC20'),
 ('Element', '0x0cab6977a9c70e04458b740476b498b214019641', 'NFT market'),
 ('Scroll Name Service', '0xe2e1d82b050bb5bfec776b2653a72f093a8373ab', 'ERC721'),
+('ZebraSwap', '0x0122960d6e391478bfe8fb2408ba412d5600f621', 'dex'),
+('XY Finance', '0x778c974568e376146dbc64ff12ad55b2d1c4133f', 'dex'),
+('Zonic', '0x1a7b46c660603ebb5fbe3ae51e80ad21df00bdd1', 'NFT market'),
+('ScrollSwap', '0xefeb222f8046aaa032c56290416c3192111c0085', 'dex')
 ) AS x (name, address, category)
