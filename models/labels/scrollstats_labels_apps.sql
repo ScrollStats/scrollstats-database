@@ -35,5 +35,6 @@ FROM (VALUES
 ('ZebraSwap', '0x0122960d6e391478bfe8fb2408ba412d5600f621', 'dex'),
 ('XY Finance', '0x778c974568e376146dbc64ff12ad55b2d1c4133f', 'dex'),
 ('Zonic', '0x1a7b46c660603ebb5fbe3ae51e80ad21df00bdd1', 'NFT market'),
-('ScrollSwap', '0xefeb222f8046aaa032c56290416c3192111c0085', 'dex')
+('ScrollSwap', '0xefeb222f8046aaa032c56290416c3192111c0085', 'dex'),
+('zKDoge', '0x36f983124b027781216adc94c4d81ef4026ffcdd', 'ERC20')
 ) AS x (name, address, category)
