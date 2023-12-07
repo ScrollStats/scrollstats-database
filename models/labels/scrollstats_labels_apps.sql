@@ -25,6 +25,7 @@ FROM (VALUES
 ('LayerBank', '0xec53c830f4444a8a56455c6836b5d2aa794289aa', 'lending'),
 ('PunkSwap', '0x26cb8660eefcb2f7652e7796ed713c9fb8373f8e', 'dex'),
 ('Merkly ONFT', '0x6e55472109e6abe4054a8e8b8d9edffcb31032c5', 'ERC721'),
+('Merkly OFT', '0x1a7206f9c315720d1e5b536b492c448863eb298a', 'ERC20'),
 ('Omnisea Drop', '0xf28e0318887fb73ec0d9feeb6f89cea347ef775d', 'NFT Drop'),
 ('NFTs2Me Owners', '0x2269bceb3f4e0aa53d2fc43b1b7c5c5d13b119a5', 'ERC721'),
 ('SecondLive', '0xac1f9fadc33cc0799cf7e3051e5f6b28c98966ee', 'metaverse'),
