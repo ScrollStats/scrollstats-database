@@ -8,7 +8,7 @@ SELECT name, address, category
 FROM (VALUES
 ('Burn Address', '0x0000000000000000000000000000000000000001', 'burn address'), 
 ('USDC', '0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4', 'ERC20'),
-('Scroll Bridge', '0x87627c7e586441eef9ee3c28b66662e897513f33', 'bridge'),
+('Rhino.fi', '0x87627c7e586441eef9ee3c28b66662e897513f33', 'bridge'),
 ('SyncSwap', '0x80e38291e06339d10aab483c65695d004dbd5c69', 'dex'),
 ('Dmail', '0x47fbe95e981c0df9737b6971b451fb15fdc989d9', 'messaging'),
 ('LayerZero', '0xa658742d33ebd2ce2f0bdff73515aa797fd161d9', 'bridge'),
@@ -36,5 +36,8 @@ FROM (VALUES
 ('XY Finance', '0x778c974568e376146dbc64ff12ad55b2d1c4133f', 'dex'),
 ('Zonic', '0x1a7b46c660603ebb5fbe3ae51e80ad21df00bdd1', 'NFT market'),
 ('ScrollSwap', '0xefeb222f8046aaa032c56290416c3192111c0085', 'dex'),
-('zKDoge', '0x36f983124b027781216adc94c4d81ef4026ffcdd', 'ERC20')
+('zKDoge', '0x36f983124b027781216adc94c4d81ef4026ffcdd', 'ERC20'),
+('KyberSwap LP NFT', '0xe222fbe074a436145b255442d919e4e3a6c6a480', 'NFT'),
+('SushiSwap', '0xca6fe749878841b96f620ec79638b13daad3d320', 'dex'),
+('Scroll Bridge', '0x4c0926ff5252a435fd19e10ed15e5a249ba19d79', 'bridge')
 ) AS x (name, address, category)
