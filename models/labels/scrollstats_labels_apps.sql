@@ -39,5 +39,13 @@ FROM (VALUES
 ('zKDoge', '0x36f983124b027781216adc94c4d81ef4026ffcdd', 'ERC20'),
 ('KyberSwap LP NFT', '0xe222fbe074a436145b255442d919e4e3a6c6a480', 'NFT'),
 ('SushiSwap', '0xca6fe749878841b96f620ec79638b13daad3d320', 'dex'),
-('Scroll Bridge', '0x4c0926ff5252a435fd19e10ed15e5a249ba19d79', 'bridge')
+('Scroll Bridge', '0x4c0926ff5252a435fd19e10ed15e5a249ba19d79', 'bridge'),
+('iZiSwap LP NFT', '0x1502d025bfa624469892289d45c0352997251728', 'NFT'),
+('Zonic', '0x211e278bc28dc9d452ee0fd86bddb4bc849cdc5d', 'NFT'),
+('OARTONFT', '0x48cd969dafa95a48c0b827998158a42b9819e417', 'NFT'),
+('KyberSwap', '0xf9c2b5746c946ef883ab2660bbbb1f10a5bdeab4', 'dex'),
+('KyberSwap', '0x7d5ba536ab244aaa1ea42ab88428847f25e3e676', 'dex'),
+('Meson.fi', '0x25ab3efd52e6470681ce037cd546dc60726948d3', 'bridge'),
+('QuestNFT', '0xaa4cd05cf4755075c415ab05bcea5cf9bf3971b2', 'NFT'),
+('AI Degen', '0x6f93962d0ff4509cf35801697cfb259a86180c82', 'NFT')
 ) AS x (name, address, category)
