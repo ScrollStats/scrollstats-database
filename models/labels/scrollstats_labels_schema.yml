@@ -1,0 +1,19 @@
+version: 2
+
+models:
+
+  - name: scrollstats_labels_apps
+    description: "Labels for apps"
+    columns:
+      - &name
+        name: name
+        description: "name of project"
+      - &address
+        name: address
+        description: "address of smart contract"
+      - &category
+        name: category
+        description: "category of project"
+
+
+  
