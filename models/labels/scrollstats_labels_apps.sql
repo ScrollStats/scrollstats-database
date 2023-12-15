@@ -18,7 +18,7 @@ FROM (VALUES
 ('KyberSwap', '0x6131b5fae19ea4f9d964eac0408e4408b66337b5', 'dex'),
 ('Scroll Bridge', '0x781e90f1c8fc4611c9b7497c3b47f99ef6969cbc', 'bridge'),
 ('Skydrome', '0xaa111c62cdeef205f70e6722d1e22274274ec12f', 'dex'),
-('Scrolling Mainner NFT', '0xc6a0807cc28ae3fc0af0ff5489dafff7d3b111a9', 'ERC721'),
+('Scrolling Mainnet NFT', '0xc6a0807cc28ae3fc0af0ff5489dafff7d3b111a9', 'ERC721'),
 ('Thirdweb ERC20 Factory', '0x76f948e5f13b9a84a81e5681df8682bbf524805e', 'factory'),
 ('SpaceFi', '0x18b71386418a9fca5ae7165e31c385a5130011b6', 'dex'),
 ('Ambient', '0xaaaaaaaacb71bf2c8cae522ea5fa455571a74106', 'dex'),
@@ -47,5 +47,6 @@ FROM (VALUES
 ('KyberSwap', '0x7d5ba536ab244aaa1ea42ab88428847f25e3e676', 'dex'),
 ('Meson.fi', '0x25ab3efd52e6470681ce037cd546dc60726948d3', 'bridge'),
 ('QuestNFT', '0xaa4cd05cf4755075c415ab05bcea5cf9bf3971b2', 'NFT'),
-('AI Degen', '0x6f93962d0ff4509cf35801697cfb259a86180c82', 'NFT')
+('AI Degen', '0x6f93962d0ff4509cf35801697cfb259a86180c82', 'NFT'),
+('Scroll Origins NFT', '0x74670a3998d9d6622e32d0847ff5977c37e0ec91', 'NFT')
 ) AS x (name, address, category)
