@@ -26,7 +26,7 @@ FROM (VALUES
 ('PunkSwap', '0x26cb8660eefcb2f7652e7796ed713c9fb8373f8e', 'dex'),
 ('Merkly ONFT', '0x6e55472109e6abe4054a8e8b8d9edffcb31032c5', 'ERC721'),
 ('Merkly OFT', '0x1a7206f9c315720d1e5b536b492c448863eb298a', 'ERC20'),
-('Omnisea Drop', '0xf28e0318887fb73ec0d9feeb6f89cea347ef775d', 'NFT Drop'),
+('Omnisea Drop', '0xf28e0318887fb73ec0d9feeb6f89cea347ef775d', 'NFT drop'),
 ('NFTs2Me Owners', '0x2269bceb3f4e0aa53d2fc43b1b7c5c5d13b119a5', 'ERC721'),
 ('SecondLive', '0xac1f9fadc33cc0799cf7e3051e5f6b28c98966ee', 'metaverse'),
 ('SXG', '0xe1045afc3abd65bb728a90a011924b0d64c6bf86', 'ERC20'),
@@ -48,5 +48,14 @@ FROM (VALUES
 ('Meson.fi', '0x25ab3efd52e6470681ce037cd546dc60726948d3', 'bridge'),
 ('QuestNFT', '0xaa4cd05cf4755075c415ab05bcea5cf9bf3971b2', 'NFT'),
 ('AI Degen', '0x6f93962d0ff4509cf35801697cfb259a86180c82', 'NFT'),
-('Scroll Origins NFT', '0x74670a3998d9d6622e32d0847ff5977c37e0ec91', 'NFT')
+('Scroll Origins NFT', '0x74670a3998d9d6622e32d0847ff5977c37e0ec91', 'NFT'),
+('Scroll Name Service', '0x9592af1844e7d267d20eeb1a7f0f3da514918462', 'identity'),
+('Safe', '0xa6b71e26c5e0845f74c812102ca7114b6a896ab2', 'factory'),
+('Merkly Gas Refuel', '0x7dfb5e7808b5eb4fb8b9e7169537575f6ff1a218', 'bridge'),
+('DODO', '0x4e998615ad430c1ca46a69d813ede6eb3ec55edb', 'dex'),
+('ScrollMigos', '0x9b1840ff7c05e27ecc8663689f7c8e7748bac62b', 'NFT drop'),
+('OpenOcean', '0x6352a56caadc4f1e25cd6c75970fa768a3304e64', 'dex'),
+('Symbiosis', '0xf02bbc9de6e443efdf3fc41851529c2c3b9e5e0c', 'bridge'),
+('Zerius ONFT', '0xeb22c3e221080ead305cae5f37f0753970d973cd', 'NFT'),
+('Interport', '0x7b2e3fc7510d1a51b3bef735f985446589219354', 'bridge')
 ) AS x (name, address, category)
