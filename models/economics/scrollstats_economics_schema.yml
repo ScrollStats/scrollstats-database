@@ -1,0 +1,51 @@
+version: 2
+
+models:
+
+  - name: scrollstats_economics_l1_batch_fees
+    meta:
+      sector: economics
+    description: "Cost of posting batches to L1"
+    tests:
+      - unique:
+          column_name: "HASH"
+    columns:
+      - &HASH
+        name: HASH
+        description: "hash of the l1 transaction"
+      - &BLOCK_TIMESTAMP
+        name: BLOCK_TIMESTAMP
+        description: "UTC event block time of the transaction"
+      - &BLOCK_NUMBER
+        name: BLOCK_NUMBER
+        description: "Block number of the transaction"
+      - &DATA_LENGTH
+        name: DATA_LENGTH
+        description: "byte length of the data posted to l1"
+      - &GAS_SPEND
+        name: GAS_SPEND
+        description: "ETH spent on posting data to L1"
+      - &GAS_SPEND_USD
+        name: GAS_SPEND_USD
+        description: "fee paid to post data on L1 in usd"
+      - &RECEIPT_GAS_USED
+        name: RECEIPT_GAS_USED
+        description: "Gas units used by L1 Transactions"
+
+  - name: scrollstats_economics_l1_verification_fees
+    meta:
+      sector: economics
+    description: "Cost of finalizing batches with proofs on L1"
+    tests:
+      - unique:
+          column_name: "HASH"
+    columns:
+      - *HASH
+      - *BLOCK_TIMESTAMP
+      - *BLOCK_NUMBER
+      - &PROOF_SIZE_MB
+        name: PROOF_SIZE_MB
+        description: "size of proofs posted to l1 in MBs"
+      - *GAS_SPEND
+      - *GAS_SPEND_USD
+      - *RECEIPT_GAS_USED
