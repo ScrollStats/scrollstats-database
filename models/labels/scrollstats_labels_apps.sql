@@ -9,6 +9,8 @@ FROM (VALUES
 ('Burn Address', '0x0000000000000000000000000000000000000001', 'burn address'), 
 ('USDC', '0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4', 'ERC20'),
 ('Rhino.fi', '0x87627c7e586441eef9ee3c28b66662e897513f33', 'bridge'),
+('Rhino.fi Scroll Hunter NFT', '0x0332fce92897679e97620a097aa515f5d7cf4034', 'NFT'),
+('Rhino.fi Scroll Pro Hunter NFT', '0x4be1136247cdeca3775a7a32aff6a621c1c149eb', 'NFT'),
 ('SyncSwap', '0x80e38291e06339d10aab483c65695d004dbd5c69', 'dex'),
 ('Dmail', '0x47fbe95e981c0df9737b6971b451fb15fdc989d9', 'messaging'),
 ('LayerZero', '0xa658742d33ebd2ce2f0bdff73515aa797fd161d9', 'bridge'),
