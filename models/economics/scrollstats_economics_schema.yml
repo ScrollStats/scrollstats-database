@@ -49,3 +49,51 @@ models:
       - *GAS_SPEND
       - *GAS_SPEND_USD
       - *RECEIPT_GAS_USED
+
+  - name: scrollstats_economics_l1_gas_oracle_fees
+    meta:
+      sector: economics
+    description: "Cost of setting L2 Base Fee"
+    tests:
+      - unique:
+          column_name: "HASH"
+    columns:
+      - *HASH
+      - *BLOCK_TIMESTAMP
+      - *BLOCK_NUMBER
+      - *GAS_SPEND
+      - *GAS_SPEND_USD
+      - *RECEIPT_GAS_USED
+
+  - name: scrollstats_economics_l2_gas_oracle_fees
+    meta:
+      sector: economics
+    description: "Cost of setting L2 Base Fee"
+    tests:
+      - unique:
+          column_name: "HASH"
+    columns:
+      - *HASH
+      - *BLOCK_TIMESTAMP
+      - *BLOCK_NUMBER
+      - *GAS_SPEND
+      - *GAS_SPEND_USD
+      - *RECEIPT_GAS_USED
+
+  - name: scrollstats_economics_l1_bridge_revenue
+    meta:
+      sector: economics
+    description: "Revenue from bridge fees"
+    tests:
+      - unique:
+          column_name: "HASH"
+    columns:
+      - *HASH
+      - *BLOCK_TIMESTAMP
+      - *BLOCK_NUMBER
+      - &BRIDGE_FEE
+        name: BRIDGE_FEE
+        description: "ETH spent on bridge fee"
+      - &BRIDGE_FEE_USD
+        name: BRIDGE_FEE_USD
+        description: "fee paid to bridge in usd"
