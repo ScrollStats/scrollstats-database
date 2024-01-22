@@ -21,5 +21,5 @@ INNER JOIN COMMON.PRICES.TOKEN_PRICES_HOURLY_EASY p
     AND p.symbol = 'ETH'
     AND l.BLOCK_TIMESTAMP >= to_timestamp('2023-10-07', 'yyyy-MM-dd') 
     {% if is_incremental() %}
-    AND t.BLOCK_TIMESTAMP >= CURRENT_TIMESTAMP() - interval '3 day' 
+    AND l.BLOCK_TIMESTAMP >= CURRENT_TIMESTAMP() - interval '3 day' 
     {% endif %}
