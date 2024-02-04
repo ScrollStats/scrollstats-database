@@ -59,5 +59,6 @@ FROM (VALUES
 ('OpenOcean', '0x6352a56caadc4f1e25cd6c75970fa768a3304e64', 'dex'),
 ('Symbiosis', '0xf02bbc9de6e443efdf3fc41851529c2c3b9e5e0c', 'bridge'),
 ('Zerius ONFT', '0xeb22c3e221080ead305cae5f37f0753970d973cd', 'NFT'),
-('Interport', '0x7b2e3fc7510d1a51b3bef735f985446589219354', 'bridge')
+('Interport', '0x7b2e3fc7510d1a51b3bef735f985446589219354', 'bridge'),
+('WETH', '0x5300000000000000000000000000000000000004', 'ERC20')
 ) AS x (name, address, category)
