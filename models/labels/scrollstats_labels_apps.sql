@@ -60,5 +60,6 @@ FROM (VALUES
 ('Symbiosis', '0xf02bbc9de6e443efdf3fc41851529c2c3b9e5e0c', 'bridge'),
 ('Zerius ONFT', '0xeb22c3e221080ead305cae5f37f0753970d973cd', 'NFT'),
 ('Interport', '0x7b2e3fc7510d1a51b3bef735f985446589219354', 'bridge'),
-('WETH', '0x5300000000000000000000000000000000000004', 'ERC20')
+('WETH', '0x5300000000000000000000000000000000000004', 'ERC20'),
+('Rubyscore', '0xe10add2ad591a7ac3ca46788a06290de017b9fb4', 'vote')
 ) AS x (name, address, category)
