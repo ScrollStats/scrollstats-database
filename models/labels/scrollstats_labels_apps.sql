@@ -61,5 +61,12 @@ FROM (VALUES
 ('Zerius ONFT', '0xeb22c3e221080ead305cae5f37f0753970d973cd', 'NFT', null),
 ('Interport', '0x7b2e3fc7510d1a51b3bef735f985446589219354', 'bridge', null),
 ('WETH', '0x5300000000000000000000000000000000000004', 'ERC20', null),
-('Rubyscore', '0xe10add2ad591a7ac3ca46788a06290de017b9fb4', 'vote', null)
+('Rubyscore', '0xe10add2ad591a7ac3ca46788a06290de017b9fb4', 'vote', null),
+('Aave', '0x11fcfe756c05ad438e312a7fd934381537d3cffe', 'lending', 'aave-v3'),
+('Metavault', '0x646aaff875bd16d2c3777f3f6e1599eebf1e2137', 'dex', 'metavault-v3'),
+('Metavault', '0xc6433c65ed684e987287d4de87869a0a7cc4c2eb', 'dex', 'metavault-v3'),
+('Cog', '0xc6433c65ed684e987287d4de87869a0a7cc4c2eb', 'lending', 'cog'),
+('Symmetry', '0x4b9de260e4283feeb53f785aabeaa895ec5d46f9', 'derivatives', 'symmetry-trade'),
+('Symmetry', '0x177fa9fc89c438bae630695797181331d6d8a056', 'derivatives', 'symmetry-trade'),
+('Symmetry', '0x52dbf3cbc2622ec75252e7877d8f343049b83910', 'derivatives', 'symmetry-trade')
 ) AS x (name, address, category, slug)
