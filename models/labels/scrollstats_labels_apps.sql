@@ -68,5 +68,6 @@ FROM (VALUES
 ('Cog', '0xc6433c65ed684e987287d4de87869a0a7cc4c2eb', 'lending', 'cog'),
 ('Symmetry', '0x4b9de260e4283feeb53f785aabeaa895ec5d46f9', 'derivatives', 'symmetry-trade'),
 ('Symmetry', '0x177fa9fc89c438bae630695797181331d6d8a056', 'derivatives', 'symmetry-trade'),
-('Symmetry', '0x52dbf3cbc2622ec75252e7877d8f343049b83910', 'derivatives', 'symmetry-trade')
+('Symmetry', '0x52dbf3cbc2622ec75252e7877d8f343049b83910', 'derivatives', 'symmetry-trade'),
+('PunkSwap', '0x26cb8660eefcb2f7652e7796ed713c9fb8373f8e', 'dex', 'punkswap')
 ) AS x (name, address, category, slug)
