@@ -35,6 +35,7 @@ FROM (VALUES
 ('Element', '0x0cab6977a9c70e04458b740476b498b214019641', 'NFT market', null),
 ('Scroll Name Service', '0xe2e1d82b050bb5bfec776b2653a72f093a8373ab', 'NFT', null),
 ('ZebraSwap', '0x0122960d6e391478bfe8fb2408ba412d5600f621', 'dex', 'zebra'),
+('ZebraSwap', '0xca9fbef94d7cc8662f4711a8612ff9dc1526e650', 'dex', 'zebra'),
 ('XY Finance', '0x778c974568e376146dbc64ff12ad55b2d1c4133f', 'dex', 'xy-finance'),
 ('Zonic', '0x1a7b46c660603ebb5fbe3ae51e80ad21df00bdd1', 'NFT market', null),
 ('ScrollSwap', '0xefeb222f8046aaa032c56290416c3192111c0085', 'dex','scroll-swap'),
