@@ -70,5 +70,6 @@ FROM (VALUES
 ('Symmetry', '0x4b9de260e4283feeb53f785aabeaa895ec5d46f9', 'derivatives', 'symmetry-trade'),
 ('Symmetry', '0x177fa9fc89c438bae630695797181331d6d8a056', 'derivatives', 'symmetry-trade'),
 ('Symmetry', '0x52dbf3cbc2622ec75252e7877d8f343049b83910', 'derivatives', 'symmetry-trade'),
-('PunkSwap', '0x26cb8660eefcb2f7652e7796ed713c9fb8373f8e', 'dex', 'punkswap')
+('PunkSwap', '0x26cb8660eefcb2f7652e7796ed713c9fb8373f8e', 'dex', 'punkswap'),
+('Uniswap', '0xfc30937f5cde93df8d48acaf7e6f5d8d8a31f636', 'dex', 'uniswap-v3')
 ) AS x (name, address, category, slug)
