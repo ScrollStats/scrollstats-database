@@ -71,5 +71,20 @@ FROM (VALUES
 ('Symmetry', '0x177fa9fc89c438bae630695797181331d6d8a056', 'derivatives', 'symmetry-trade'),
 ('Symmetry', '0x52dbf3cbc2622ec75252e7877d8f343049b83910', 'derivatives', 'symmetry-trade'),
 ('PunkSwap', '0x26cb8660eefcb2f7652e7796ed713c9fb8373f8e', 'dex', 'punkswap'),
-('Uniswap', '0xfc30937f5cde93df8d48acaf7e6f5d8d8a31f636', 'dex', 'uniswap-v3')
+('Uniswap', '0xfc30937f5cde93df8d48acaf7e6f5d8d8a31f636', 'dex', 'uniswap-v3'),
+('Router', '0xfc30937f5cde93df8d48acaf7e6f5d8d8a31f636', 'bridge', 'router-protocol'),
+('SushiSwap', '0x93c31c9c729a249b2877f7699e178f4720407733', 'dex', 'sushi'),
+('Owlto', '0xe6feca764b7548127672c189d303eb956c3ba372', 'bridge', null),
+('XY Finance', '0x22bf2a9fcaab9dc96526097318f459ef74277042', 'dex', 'xy-finance'),
+('SushiSwap', '0x734583f62bb6ace3c9ba9bd5a53143ca2ce8c55a', 'dex', 'sushi'),
+('Aave', '0xff75a4b698e3ec95e608ac0f22a03b8368e05f5d', 'lending', 'aave-v3'),
+('Merkly Hyperlane NFT', '0x7dac480d20f322d2ef108a59a465ccb5749371c4', 'NFT', null),
+('Layer3 Cube', '0x1195cf65f83b3a5768f3c496d3a05ad6412c64b7', 'NFT', null),
+('LayerZero', '0x3c2269811836af69497e5f486a85d7316753cf62', 'bridge', null),
+('zkMerkly', '0x61bb3852947a370946abdba8fa9cf45ec472f83f', 'NFT', null),
+('LayerZero', '0xbe0d08a85eebfcc6eda0a843521f7cbb1180d2e2', 'bridge', null),
+('Hyperlane', '0x2f2afae1139ce54fefc03593fee8ab2adf4a85a7', 'bridge', null),
+('Cog', '0x63fdafa50c09c49f594f47ea7194b721291ec50f', 'lending', 'cog'),
+('wstETH', '0xf610a9dfb7c89644979b4a0f27063e9e7d7cda32', 'ERC20', null),
+('Merkly Hyperlane FT', '0x904550e0d182cd4aee0d305891c666a212ec8f01', 'ERC20', null)
 ) AS x (name, address, category, slug)
