@@ -15,6 +15,8 @@ FROM (VALUES
 ('Dmail', '0x47fbe95e981c0df9737b6971b451fb15fdc989d9', 'messaging', null),
 ('LayerZero', '0xa658742d33ebd2ce2f0bdff73515aa797fd161d9', 'bridge', null),
 ('LayerZero', '0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa', 'bridge', null),
+('LayerZero', '0x1a44076050125825900e736c501f859c50fe728c', 'bridge', null),
+('LayerZero', '0xb6319cc6c8c27a8f5daf0dd3df91ea35c4720dd7', 'bridge', null),
 ('USDT', '0xf55bec9cafdbe8730f096aa55dad6d22d44099df', 'ERC20', null),
 ('iZiSwap', '0x2db0afd0045f3518c77ec6591a542e326befd3d7', 'dex', 'iziswap'),
 ('KyberSwap', '0x6131b5fae19ea4f9d964eac0408e4408b66337b5', 'dex', 'kyberswap'),
