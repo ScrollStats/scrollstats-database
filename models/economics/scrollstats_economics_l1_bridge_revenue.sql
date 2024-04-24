@@ -1,13 +1,14 @@
 {{ config
 (
     materialized = 'incremental',
-    unique_key = 'HASH'
+    unique_key = ['HASH','LOG_INDEX']
 )
 }}
 
 SELECT
 l.BLOCK_NUMBER,
 l.BLOCK_TIMESTAMP,
+l.LOG_INDEX,
 l.TRANSACTION_HASH AS HASH,
 TO_NUMBER(l.PARAMS:"value"::STRING)/1e18 AS  BRIDGE_FEE,
 p.USD_PRICE * (TO_NUMBER(l.PARAMS:"value"::STRING)/1e18) AS BRIDGE_FEE_USD

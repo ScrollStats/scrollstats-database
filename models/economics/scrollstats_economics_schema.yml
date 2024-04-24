@@ -86,11 +86,14 @@ models:
     description: "Revenue from bridge fees"
     tests:
       - unique:
-          column_name: "HASH"
+          column_name: "(HASH || '-' || LOG_INDEX)"
     columns:
       - *HASH
       - *BLOCK_TIMESTAMP
       - *BLOCK_NUMBER
+      - &LOG_INDEX
+        name: LOG_INDEX
+        description: "index of the log"
       - &BRIDGE_FEE
         name: BRIDGE_FEE
         description: "ETH spent on bridge fee"
