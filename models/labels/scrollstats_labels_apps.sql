@@ -6,7 +6,7 @@
 
 SELECT name, address, category, slug
 FROM (VALUES
-('Burn Address', '0x0000000000000000000000000000000000000001', 'burn address', null), 
+-- ('Burn Address', '0x0000000000000000000000000000000000000001', 'burn address', null), 
 ('USDC', '0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4', 'ERC20', null),
 ('Rhino.fi', '0x87627c7e586441eef9ee3c28b66662e897513f33', 'bridge', null),
 ('Rhino.fi Scroll Hunter NFT', '0x0332fce92897679e97620a097aa515f5d7cf4034', 'NFT', null),
