@@ -17,7 +17,7 @@ FROM ETHEREUM.RAW.TRANSACTIONS t
 INNER JOIN COMMON.PRICES.TOKEN_PRICES_HOURLY_EASY p
   ON p.HOUR = date_trunc('hour', t.BLOCK_TIMESTAMP)
   AND t.TO_ADDRESS = '0xa13baf47339d63b743e7da8741db5456dac1e556'
-  AND t.INPUT LIKE '0x31fa742d%' -- finalizeBatchWithProof
+  AND SUBSTRING(t.INPUT, 1, 10) IN ('0x31fa742d', '0x00b0f4d7')
   AND t.BLOCK_TIMESTAMP >= to_timestamp('2023-10-07', 'yyyy-MM-dd') 
   AND p.symbol = 'ETH'
   {% if is_incremental() %}
