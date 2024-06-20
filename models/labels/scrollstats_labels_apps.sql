@@ -88,5 +88,7 @@ FROM (VALUES
 ('Hyperlane', '0x2f2afae1139ce54fefc03593fee8ab2adf4a85a7', 'bridge', null),
 ('Cog', '0x63fdafa50c09c49f594f47ea7194b721291ec50f', 'lending', 'cog'),
 ('wstETH', '0xf610a9dfb7c89644979b4a0f27063e9e7d7cda32', 'ERC20', null),
-('Merkly Hyperlane FT', '0x904550e0d182cd4aee0d305891c666a212ec8f01', 'ERC20', null)
+('Merkly Hyperlane FT', '0x904550e0d182cd4aee0d305891c666a212ec8f01', 'ERC20', null),
+('SyncSwap', '0xfd541d0e2773a189450a70f06bc7edd3c1dc9115', 'dex', 'syncswap'),
+('Lifi', '0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae', 'bridge', null)
 ) AS x (name, address, category, slug)
