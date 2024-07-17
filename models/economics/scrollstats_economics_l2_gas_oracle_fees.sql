@@ -16,7 +16,8 @@ FROM SCROLL.RAW.TRANSACTIONS t
 INNER JOIN COMMON.PRICES.TOKEN_PRICES_HOURLY_EASY p
   ON p.HOUR = date_trunc('hour', t.BLOCK_TIMESTAMP)
   AND t.TO_ADDRESS = '0x5300000000000000000000000000000000000002'
-  AND t.INPUT LIKE '0xbede39b5%' -- setL2BaseFee
+  AND (t.INPUT LIKE '0xbede39b5%' -- setL2BaseFee
+  OR t.INPUT LIKE '0x39455d3a%' --setL1BaseFeeAndBlobBaseFee)
   AND t.BLOCK_TIMESTAMP >= to_timestamp('2023-10-07', 'yyyy-MM-dd') 
   AND p.symbol = 'ETH'
   {% if is_incremental() %}
