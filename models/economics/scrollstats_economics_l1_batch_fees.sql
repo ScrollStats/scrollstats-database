@@ -18,7 +18,10 @@ INNER JOIN COMMON.PRICES.TOKEN_PRICES_HOURLY_EASY p
   ON p.HOUR = date_trunc('hour', t.BLOCK_TIMESTAMP)
   AND p.symbol = 'ETH'
   AND t.TO_ADDRESS = '0xa13baf47339d63b743e7da8741db5456dac1e556'
-  AND  t.INPUT LIKE '0x1325aca0%' -- Commit Batch
+  AND  SUBSTRING(t.INPUT, 1, 10) IN (
+    '0x1325aca0', -- Commit Batch
+    '0x86b053a9' -- commitBatchWithBlobProof
+)
   AND t.BLOCK_TIMESTAMP >= to_timestamp('2023-10-07', 'yyyy-MM-dd') 
   {% if is_incremental() %}
   AND t.BLOCK_TIMESTAMP >= CURRENT_TIMESTAMP() - interval '3 day' 
