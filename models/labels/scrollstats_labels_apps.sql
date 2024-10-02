@@ -96,5 +96,6 @@ FROM (VALUES
 ('Scroll Canvas', '0xb23af8707c442f59bdfc368612bd8dbcca8a7a5a', 'attest', null),
 ('Scroll Canvas', '0x4560fecd62b14a463be44d40fe5cfd595eec0113', 'attest', null),
 ('Ethereum Year Badge Attester', '0x39fb5e85c7713657c2d9e869e974ff1e0b06f20c', 'attest', null),
-('Pencils SOUL Drop Attester', '0x546f7e7257963dcfc3a7885e911e47b76c05bb76', 'bridge', null)
+('Pencils Protocol Attester', '0x546f7e7257963dcfc3a7885e911e47b76c05bb76', 'bridge', null),
+('Symbiosis Attester', '0x7673f45e6e95373ba22651a4f5f594edec3006bc', 'bridge', null)
 ) AS x (name, address, category, slug)
