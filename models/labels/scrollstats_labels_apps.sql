@@ -90,5 +90,11 @@ FROM (VALUES
 ('wstETH', '0xf610a9dfb7c89644979b4a0f27063e9e7d7cda32', 'ERC20', null),
 ('Merkly Hyperlane FT', '0x904550e0d182cd4aee0d305891c666a212ec8f01', 'ERC20', null),
 ('SyncSwap', '0xfd541d0e2773a189450a70f06bc7edd3c1dc9115', 'dex', 'syncswap'),
-('Lifi', '0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae', 'bridge', null)
+('Lifi', '0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae', 'bridge', null),
+('Scroll Pump Airdrop', '0xce64da1992cc2409e0f0cdcaad64f8dd2dbe0093', 'airdrop', null),
+('EAS', '0xc47300428b6ad2c7d03bb76d05a176058b47e6b0', 'attestation', null),
+('Scroll Canvas', '0xb23af8707c442f59bdfc368612bd8dbcca8a7a5a', 'attest', null),
+('Scroll Canvas', '0x4560fecd62b14a463be44d40fe5cfd595eec0113', 'attest', null),
+('Ethereum Year Badge Attester', '0x39fb5e85c7713657c2d9e869e974ff1e0b06f20c', 'attest', null),
+('Pencils SOUL Drop Attester', '0x546f7e7257963dcfc3a7885e911e47b76c05bb76', 'bridge', null)
 ) AS x (name, address, category, slug)
