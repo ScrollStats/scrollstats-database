@@ -29,6 +29,7 @@ FROM (
         AND LLAMA_NAME != ''
         AND h.PROTOCOL_NAME LIKE LLAMA_NAME || '%'
         AND date_trunc('month',DATE) > date_trunc('month',current_date) - interval '24 month'
+        AND date_trunc('month',DATE) < date_trunc('month',current_date)
     )
     WHERE rn = 1 
     GROUP BY 1,2
