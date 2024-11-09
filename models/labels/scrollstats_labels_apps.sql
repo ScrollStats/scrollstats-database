@@ -130,5 +130,9 @@ FROM (VALUES
 ('Uniswap', '0xfc30937f5cde93df8d48acaf7e6f5d8d8a31f636', 'dex', 'uniswap-v3'),
 ('Router', '0xfc30937f5cde93df8d48acaf7e6f5d8d8a31f636', 'bridge', 'router-protocol'),
 ('Hyperlane', '0x2f2afae1139ce54fefc03593fee8ab2adf4a85a7', 'bridge', null),
-('Lifi', '0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae', 'bridge', null)
+('Lifi', '0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae', 'bridge', null),
+('USDC', '0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4', 'ERC20', null),
+('USDT', '0xf55bec9cafdbe8730f096aa55dad6d22d44099df', 'ERC20', null),
+('Scroll Canvas', '0xb23af8707c442f59bdfc368612bd8dbcca8a7a5a', 'attest', null),
+('Scroll Canvas', '0x4560fecd62b14a463be44d40fe5cfd595eec0113', 'attest', null)
 ) AS x (name, address, category, slug)
